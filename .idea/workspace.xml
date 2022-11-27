@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b690b6-8466-4670-bdba-6533ae8383c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Grader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GraderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SimpleCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,54 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleCalculatorTest.threePlusSevenEqualsTen">
+  <component name="RunManager" selected="JUnit.GraderTest">
+    <configuration name="GraderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-simple-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GraderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraderTest.fiftyNineShouldReturnF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-simple-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GraderTest" />
+      <option name="METHOD_NAME" value="fiftyNineShouldReturnF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraderTest.sixtyNineShouldReturnD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-simple-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GraderTest" />
+      <option name="METHOD_NAME" value="sixtyNineShouldReturnD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleCalculatorTest.addTwoNumbersSumIsFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-simple-calculator" />
       <extension name="coverage">
@@ -86,6 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GraderTest" />
+        <item itemvalue="JUnit.GraderTest.sixtyNineShouldReturnD" />
+        <item itemvalue="JUnit.GraderTest.fiftyNineShouldReturnF" />
         <item itemvalue="JUnit.SimpleCalculatorTest.threePlusSevenEqualsTen" />
         <item itemvalue="JUnit.SimpleCalculatorTest.addTwoNumbersSumIsFour" />
       </list>
@@ -112,5 +162,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_simple_calculator$GraderTest_fiftyNineShouldReturnF.ic" NAME="GraderTest.fiftyNineShouldReturnF Coverage Results" MODIFIED="1669536136506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
