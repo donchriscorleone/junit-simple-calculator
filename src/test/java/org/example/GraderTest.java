@@ -31,4 +31,28 @@ class GraderTest {
     void ninetyNineShouldReturnA() {
         assertEquals('A', this.grader.determineLetterGrade(99));
     }
+
+    @Test
+    void ninetyShouldReturnA() {
+        assertEquals('A', this.grader.determineLetterGrade(90));
+    }
+    @Test
+    void eightyShouldReturnB() {
+        assertEquals('B', this.grader.determineLetterGrade(80));
+    }
+
+    @Test
+    void seventyShouldReturnC() {
+        assertEquals('C', this.grader.determineLetterGrade(70));
+    }
+
+    @Test
+    void sixtyShouldReturnD() {
+        assertEquals('D', this.grader.determineLetterGrade(60));
+    }
+
+    @Test
+    void zeroShouldReturnF() {
+        assertEquals('F', this.grader.determineLetterGrade(0));
+    }
 }
