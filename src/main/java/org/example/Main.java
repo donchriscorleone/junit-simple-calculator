@@ -1,5 +1,6 @@
 package org.example;
 
+import inputoutput.FileReaderThing;
 import inputoutput.FileWriterThing;
 
 import java.io.BufferedWriter;
@@ -18,5 +19,19 @@ public class Main {
             writer.write("\n" + name);
 
         writer.close();
+
+        FileReaderThing reader = new FileReaderThing("output.txt");
+        while (true) {
+            try {
+                String line = reader.getReader().readLine();
+                if (line == null) break;
+
+                System.out.println(line);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        reader.close();
     }
 }
