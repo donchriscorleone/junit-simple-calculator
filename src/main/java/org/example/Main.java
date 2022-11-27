@@ -5,11 +5,13 @@ import LambdaLesson.Printable;
 
 public class Main {
     public static void main(String[] args) {
+        Printable thing = () -> "Meow " + "!!!";
         Cat cat = new Cat();
-        printThing(cat);
+
+        printThing(thing);
     }
 
     public static void printThing(Printable thing) {
-        thing.print();
+        System.out.println(thing.print());
     }
 }
