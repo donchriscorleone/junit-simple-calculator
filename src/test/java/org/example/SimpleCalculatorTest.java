@@ -11,4 +11,8 @@ class SimpleCalculatorTest {
     void addTwoNumbersSumIsFour() {
         assertEquals(4, calculator.add(2, 2));
     }
+    @Test
+    void threePlusSevenEqualsTen() {
+        assertEquals(10, calculator.add(3, 7));
+    }
 }
