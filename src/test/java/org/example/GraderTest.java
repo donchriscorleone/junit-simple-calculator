@@ -55,4 +55,11 @@ class GraderTest {
     void zeroShouldReturnF() {
         assertEquals('F', this.grader.determineLetterGrade(0));
     }
+
+    @Test
+    void negativeOneShouldReturnIllegalArgumentException() {
+        assertThrows(IllegalArgumentException.class, () -> {
+           this.grader.determineLetterGrade(-1);
+        });
+    }
 }
